@@ -20,6 +20,6 @@ $validator->field('your-email')->isEmail();
 $validator->field('your-title')->maxLength(1000);
 $validator->field('your-message')->maxLength(6000);
 
-$pp->sendEmailTo('praveenashivram@gmail.com'); // Your email here
+$pp->sendEmailTo('praveena.shivram@gmail.com'); // Your email here
 
 echo $pp->process($_POST);
