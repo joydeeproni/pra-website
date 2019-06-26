@@ -23,3 +23,7 @@ $validator->field('your-message')->maxLength(6000);
 $pp->sendEmailTo('praveena.shivram@gmail.com'); // Your email here
 
 echo $pp->process($_POST);
+
+echo "Thank You"
+
+?>
